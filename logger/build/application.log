@@ -1,0 +1,6 @@
+[2025-07-15 22:11:06] [INFO] Logger initialized
+[2025-07-15 22:11:06] [DEBUG] This is a debug message
+[2025-07-15 22:11:06] [INFO] Application started
+[2025-07-15 22:11:06] [WARNING] Low memory detected
+[2025-07-15 22:11:06] [ERROR] Failed to open file
+[2025-07-15 22:11:06] [CRITICAL] Critical system error

@@ -1,0 +1,27 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "(gdb) Launch Logger Test",
+            "type": "cppdbg",
+            "request": "launch",
+            // Путь к исполняемому файлу, который мы собираем
+            "program": "${workspaceFolder}/test_app",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ],
+            // Перед запуском отладки выполнить задачу сборки
+            "preLaunchTask": "make build"
+        }
+    ]
+}
